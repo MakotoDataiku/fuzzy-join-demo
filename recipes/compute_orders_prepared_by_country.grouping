@@ -22,7 +22,7 @@
   "values": [
     {
       "last": false,
-      "max": true,
+      "max": false,
       "firstLastNotNull": false,
       "column": "year",
       "count": false,
@@ -85,10 +85,6 @@
           {
             "name": "country",
             "type": "string"
-          },
-          {
-            "name": "year_max",
-            "type": "bigint"
           },
           {
             "name": "count",
