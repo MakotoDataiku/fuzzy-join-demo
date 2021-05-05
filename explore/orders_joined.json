@@ -3,7 +3,117 @@
     "steps": [],
     "maxProcessedMemTableBytes": -1,
     "columnsSelection": {
-      "mode": "ALL"
+      "mode": "SELECT",
+      "list": [
+        {
+          "name": "order_date",
+          "d": false
+        },
+        {
+          "name": "order_date_year",
+          "d": false
+        },
+        {
+          "name": "order_date_month",
+          "d": false
+        },
+        {
+          "name": "order_week_of_year",
+          "d": false
+        },
+        {
+          "name": "order_date_day",
+          "d": false
+        },
+        {
+          "name": "order_day_of_week",
+          "d": false
+        },
+        {
+          "name": "pages_visited",
+          "d": false
+        },
+        {
+          "name": "order_id",
+          "d": false
+        },
+        {
+          "name": "order_number",
+          "d": false
+        },
+        {
+          "name": "customer_id",
+          "d": false
+        },
+        {
+          "name": "tshirt_category",
+          "d": false
+        },
+        {
+          "name": "total",
+          "d": false
+        },
+        {
+          "name": "gender",
+          "d": false
+        },
+        {
+          "name": "birthdate",
+          "d": false
+        },
+        {
+          "name": "age",
+          "d": false
+        },
+        {
+          "name": "user_agent_brand",
+          "d": false
+        },
+        {
+          "name": "user_agent_os",
+          "d": false
+        },
+        {
+          "name": "user_agent_osversion",
+          "d": false
+        },
+        {
+          "name": "user_agent_osflavor",
+          "d": false
+        },
+        {
+          "name": "ip_address",
+          "d": false
+        },
+        {
+          "name": "ip_address_geopoint",
+          "d": false
+        },
+        {
+          "name": "ip_address_city",
+          "d": false
+        },
+        {
+          "name": "ip_address_country",
+          "d": true
+        },
+        {
+          "name": "campaign",
+          "d": false
+        },
+        {
+          "name": "dataset",
+          "d": false
+        },
+        {
+          "name": "country",
+          "d": true
+        },
+        {
+          "name": "count",
+          "d": false
+        }
+      ]
     },
     "columnWidthsByName": {
       "order_date": 183,
