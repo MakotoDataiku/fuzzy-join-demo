@@ -121,7 +121,7 @@
       }
     }
   },
-  "name": "Fuzzy Join Demo",
+  "name": "Fuzzy Join Demo (makoto-branch)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -177,11 +177,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1620225649872
+    "lastModifiedOn": 1620225652569
   },
   "creationTag": {
     "versionNumber": 0,
@@ -190,7 +190,7 @@
     },
     "lastModifiedOn": 1620222590257
   },
-  "shortDesc": "The project *Fuzzy Join Demo* was created by Makoto Miyazaki on May 05th 2021",
+  "shortDesc": "The project *Fuzzy Join Demo* was created by Makoto Miyazaki on May 05th 2021\nThe project *FUZZY_JOIN_DEMO_MAKOTO_BRANCH* was copied from *FUZZYJOINDEMO* by Makoto Miyazaki on May 05th 2021",
   "tags": [
     "duplicated"
   ],
