@@ -4,116 +4,168 @@
       "table2": 1,
       "table1": 0,
       "type": "LEFT",
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "ip_address_country",
+            "table": 0
+          },
+          "column2": {
+            "name": "country",
+            "table": 1
+          },
+          "fuzzyMatchDesc": {
+            "distanceType": "LEVENSHTEIN",
+            "threshold": 1
+          },
+          "normaliseDesc": {
+            "unicodeCasting": false,
+            "clearSalutations": false,
+            "sortAlphabetically": false,
+            "caseInsensitive": false,
+            "language": "english",
+            "clearStopWords": false,
+            "transformToStem": false,
+            "normaliseText": false
+          }
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "order_date",
+      "type": "string",
       "table": 0
     },
     {
       "name": "order_date_year",
+      "type": "string",
       "table": 0
     },
     {
       "name": "order_date_month",
+      "type": "string",
       "table": 0
     },
     {
       "name": "order_week_of_year",
+      "type": "string",
       "table": 0
     },
     {
       "name": "order_date_day",
+      "type": "string",
       "table": 0
     },
     {
       "name": "order_day_of_week",
+      "type": "string",
       "table": 0
     },
     {
       "name": "pages_visited",
+      "type": "string",
       "table": 0
     },
     {
       "name": "order_id",
+      "type": "string",
       "table": 0
     },
     {
       "name": "order_number",
+      "type": "string",
       "table": 0
     },
     {
       "name": "customer_id",
+      "type": "string",
       "table": 0
     },
     {
       "name": "tshirt_category",
+      "type": "string",
       "table": 0
     },
     {
       "name": "total",
+      "type": "string",
       "table": 0
     },
     {
       "name": "gender",
+      "type": "string",
       "table": 0
     },
     {
       "name": "birthdate",
+      "type": "string",
       "table": 0
     },
     {
       "name": "age",
+      "type": "string",
       "table": 0
     },
     {
       "name": "user_agent_brand",
+      "type": "string",
       "table": 0
     },
     {
       "name": "user_agent_os",
+      "type": "string",
       "table": 0
     },
     {
       "name": "user_agent_osversion",
+      "type": "string",
       "table": 0
     },
     {
       "name": "user_agent_osflavor",
+      "type": "string",
       "table": 0
     },
     {
       "name": "ip_address",
+      "type": "string",
       "table": 0
     },
     {
       "name": "ip_address_geopoint",
+      "type": "string",
       "table": 0
     },
     {
       "name": "ip_address_city",
+      "type": "string",
       "table": 0
     },
     {
       "name": "ip_address_country",
+      "type": "string",
       "table": 0
     },
     {
       "name": "campaign",
+      "type": "string",
       "table": 0
     },
     {
       "name": "dataset",
+      "type": "string",
       "table": 0
     },
     {
       "name": "country",
+      "type": "string",
       "table": 1
     },
     {
       "name": "count",
+      "type": "bigint",
       "table": 1
     }
   ],
@@ -126,5 +178,123 @@
     }
   ],
   "withMetaColumn": false,
-  "debugMode": false
+  "debugMode": false,
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "order_date",
+            "type": "string"
+          },
+          {
+            "name": "order_date_year",
+            "type": "string"
+          },
+          {
+            "name": "order_date_month",
+            "type": "string"
+          },
+          {
+            "name": "order_week_of_year",
+            "type": "string"
+          },
+          {
+            "name": "order_date_day",
+            "type": "string"
+          },
+          {
+            "name": "order_day_of_week",
+            "type": "string"
+          },
+          {
+            "name": "pages_visited",
+            "type": "string"
+          },
+          {
+            "name": "order_id",
+            "type": "string"
+          },
+          {
+            "name": "order_number",
+            "type": "string"
+          },
+          {
+            "name": "customer_id",
+            "type": "string"
+          },
+          {
+            "name": "tshirt_category",
+            "type": "string"
+          },
+          {
+            "name": "total",
+            "type": "string"
+          },
+          {
+            "name": "gender",
+            "type": "string"
+          },
+          {
+            "name": "birthdate",
+            "type": "string"
+          },
+          {
+            "name": "age",
+            "type": "string"
+          },
+          {
+            "name": "user_agent_brand",
+            "type": "string"
+          },
+          {
+            "name": "user_agent_os",
+            "type": "string"
+          },
+          {
+            "name": "user_agent_osversion",
+            "type": "string"
+          },
+          {
+            "name": "user_agent_osflavor",
+            "type": "string"
+          },
+          {
+            "name": "ip_address",
+            "type": "string"
+          },
+          {
+            "name": "ip_address_geopoint",
+            "type": "string"
+          },
+          {
+            "name": "ip_address_city",
+            "type": "string"
+          },
+          {
+            "name": "ip_address_country",
+            "type": "string"
+          },
+          {
+            "name": "campaign",
+            "type": "string"
+          },
+          {
+            "name": "dataset",
+            "type": "string"
+          },
+          {
+            "name": "country",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "bigint"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  }
 }
