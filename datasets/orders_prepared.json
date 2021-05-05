@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1620222609727
+    "lastModifiedOn": 1620222761317
   },
   "creationTag": {
     "versionNumber": 0,
@@ -87,103 +87,11 @@
   "schema": {
     "columns": [
       {
-        "name": "order_date",
-        "type": "date"
-      },
-      {
-        "name": "order_date_year",
+        "name": "year",
         "type": "bigint"
       },
       {
-        "name": "order_date_month",
-        "type": "bigint"
-      },
-      {
-        "name": "order_week_of_year",
-        "type": "bigint"
-      },
-      {
-        "name": "order_date_day",
-        "type": "bigint"
-      },
-      {
-        "name": "order_day_of_week",
-        "type": "bigint"
-      },
-      {
-        "name": "pages_visited",
-        "type": "bigint"
-      },
-      {
-        "name": "order_id",
-        "type": "string"
-      },
-      {
-        "name": "order_number",
-        "type": "string"
-      },
-      {
-        "name": "customer_id",
-        "type": "string"
-      },
-      {
-        "name": "tshirt_category",
-        "type": "string"
-      },
-      {
-        "name": "total",
-        "type": "double"
-      },
-      {
-        "name": "gender",
-        "type": "string"
-      },
-      {
-        "name": "birthdate",
-        "type": "date"
-      },
-      {
-        "name": "age",
-        "type": "bigint"
-      },
-      {
-        "name": "user_agent_brand",
-        "type": "string"
-      },
-      {
-        "name": "user_agent_os",
-        "type": "string"
-      },
-      {
-        "name": "user_agent_osversion",
-        "type": "string"
-      },
-      {
-        "name": "user_agent_osflavor",
-        "type": "string"
-      },
-      {
-        "name": "ip_address",
-        "type": "string"
-      },
-      {
-        "name": "ip_address_geopoint",
-        "type": "string"
-      },
-      {
-        "name": "ip_address_city",
-        "type": "string"
-      },
-      {
-        "name": "ip_address_country",
-        "type": "string"
-      },
-      {
-        "name": "campaign",
-        "type": "boolean"
-      },
-      {
-        "name": "dataset",
+        "name": "country",
         "type": "string"
       }
     ],
