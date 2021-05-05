@@ -1,5 +1,5 @@
 {
-  "type": "fuzzyjoin",
+  "type": "grouping",
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "customMeta": {
@@ -13,11 +13,7 @@
     "main": {
       "items": [
         {
-          "ref": "orders",
-          "deps": []
-        },
-        {
-          "ref": "orders_prepared_by_country",
+          "ref": "orders_prepared",
           "deps": []
         }
       ]
@@ -27,7 +23,7 @@
     "main": {
       "items": [
         {
-          "ref": "orders_joined",
+          "ref": "orders_prepared_by_country",
           "appendMode": false
         }
       ]
@@ -39,14 +35,14 @@
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1620223251644
+    "lastModifiedOn": 1620222797404
   },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1620222833229
+    "lastModifiedOn": 1620222770651
   },
   "tags": [],
   "customFields": {},

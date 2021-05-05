@@ -63,19 +63,19 @@
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1620222833227
+    "lastModifiedOn": 1620222761317
   },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1620222833223
+    "lastModifiedOn": 1620222609727
   },
   "tags": [],
   "params": {
     "connection": "filesystem_managed",
-    "path": "${projectKey}/orders_joined",
+    "path": "${projectKey}/orders_prepared",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
@@ -87,112 +87,12 @@
   "schema": {
     "columns": [
       {
-        "name": "order_date",
-        "type": "string"
-      },
-      {
-        "name": "order_date_year",
-        "type": "string"
-      },
-      {
-        "name": "order_date_month",
-        "type": "string"
-      },
-      {
-        "name": "order_week_of_year",
-        "type": "string"
-      },
-      {
-        "name": "order_date_day",
-        "type": "string"
-      },
-      {
-        "name": "order_day_of_week",
-        "type": "string"
-      },
-      {
-        "name": "pages_visited",
-        "type": "string"
-      },
-      {
-        "name": "order_id",
-        "type": "string"
-      },
-      {
-        "name": "order_number",
-        "type": "string"
-      },
-      {
-        "name": "customer_id",
-        "type": "string"
-      },
-      {
-        "name": "tshirt_category",
-        "type": "string"
-      },
-      {
-        "name": "total",
-        "type": "string"
-      },
-      {
-        "name": "gender",
-        "type": "string"
-      },
-      {
-        "name": "birthdate",
-        "type": "string"
-      },
-      {
-        "name": "age",
-        "type": "string"
-      },
-      {
-        "name": "user_agent_brand",
-        "type": "string"
-      },
-      {
-        "name": "user_agent_os",
-        "type": "string"
-      },
-      {
-        "name": "user_agent_osversion",
-        "type": "string"
-      },
-      {
-        "name": "user_agent_osflavor",
-        "type": "string"
-      },
-      {
-        "name": "ip_address",
-        "type": "string"
-      },
-      {
-        "name": "ip_address_geopoint",
-        "type": "string"
-      },
-      {
-        "name": "ip_address_city",
-        "type": "string"
-      },
-      {
-        "name": "ip_address_country",
-        "type": "string"
-      },
-      {
-        "name": "campaign",
-        "type": "string"
-      },
-      {
-        "name": "dataset",
-        "type": "string"
+        "name": "year",
+        "type": "bigint"
       },
       {
         "name": "country",
         "type": "string"
-      },
-      {
-        "name": "count",
-        "type": "bigint"
       }
     ],
     "userModified": true
