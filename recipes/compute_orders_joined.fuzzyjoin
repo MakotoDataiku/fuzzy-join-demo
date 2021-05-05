@@ -16,7 +16,7 @@
           },
           "fuzzyMatchDesc": {
             "distanceType": "LEVENSHTEIN",
-            "threshold": 1
+            "threshold": 3
           },
           "normaliseDesc": {
             "unicodeCasting": false,
